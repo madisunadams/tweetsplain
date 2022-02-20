@@ -1,5 +1,4 @@
 # tweetsplain
-# tweetsplain
 no more mansplaining, no more gatekeeping.
 tech definitions in 280 characters or less.
 Live demo [_here_](https://tweetsplain.netlify.app/).
@@ -21,12 +20,9 @@ Tech blogs don't help, because using tech jargon to explain more tech jargon is 
 Enter tweetsplain. It's a website, with tech definitions, in plain language: tweets. If you want to learn more, you can click on each term to watch a youtube video of someone who is NOT a tech bro explaining the term more.
 
 ## Technologies Used
-- HTML5
-- CSS 2.1
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+- HTML
+- CSS 
+- Photoshop
 
 
 ## Project Status
