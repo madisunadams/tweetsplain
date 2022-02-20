@@ -1,0 +1,716 @@
+/*--------------------------------------- Universal ------------------------------------------------*/
+body { 
+    font-family: Helvetica, Sans-Serif;
+}
+
+.tweet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: auto;
+    width: 50rem;
+    border: none;
+}
+
+.context {
+    display: block;
+    margin-top: 3.5rem;
+    margin-bottom: 7rem; 
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: .9rem;
+    width: 45rem;
+    text-align: left;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/*-------------------------------------- Home page -------------------------------------------------*/
+/* Nav bar */
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #AAB8C2;
+    padding-bottom: 19px;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__item {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+#navbar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#logo__container {
+    margin-top: 2rem;
+    display: flex; 
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#coding-page, #web3-page, #ai-page {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 1rem;
+    width: 3rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #1DA1F2;
+    color: white;
+}
+
+.navbar__menu {
+    display: flex;
+    float: right;
+}
+
+#coding-page:hover {
+    color: #F2991D;
+}
+
+#web3-page:hover {
+    color: #F2991D;
+}
+
+#ai-page:hover {
+    color: #F2991D; 
+}
+
+#logo {
+    width: 7rem;
+    height: 6rem;
+}
+
+/* Images */
+#gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+    width: 60rem;
+    border: none;
+}
+
+.x {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: auto;
+    width: 40rem;
+    border: none;
+}
+
+/* Buttons */
+.btn__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.btn__item {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.btn__menu {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+}
+
+#twitter-btn, #topics-btn {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 2rem;
+    width: 10rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #1DA1F2;
+    color: white;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+#topics-btn:hover {
+    color: #F2991D;
+}
+
+#twitter-btn:hover {
+    color: #F2991D; 
+}
+
+#btn__links {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*----------------------------------- Coding page ----------------------------------------------*/ 
+/* Nav bar */
+#logoc {
+    width: 7rem;
+    height: 6rem;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__item {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+#navbar__logoc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#logo__containerc {
+    margin-top: 2rem;
+    display: flex; 
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#web3-pagec, #ai-pagec {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 1rem;
+    width: 3rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #1DA1F2;
+    color: white;
+}
+
+#coding-pagec {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 1rem;
+    width: 3rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #F2991D;
+    color: white;
+}
+
+.navbar__menu {
+    display: flex;
+    float: right;
+}
+
+#coding-pagec:hover {
+    color: white;
+}
+
+#web3-pagec:hover {
+    color: #F2991D;
+}
+
+#ai-pagec:hover {
+    color: #F2991D; 
+}
+
+#link2 {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Content */
+#coding-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#coding-video:hover {
+    color: #F2991D;
+}
+
+#languages-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#languages-video:hover {
+    color: #F2991D;
+}
+
+#front-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#front-video:hover {
+    color: #F2991D;
+}
+
+#back-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#back-video:hover {
+    color: #F2991D;
+}
+
+#u-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#u-video:hover {
+    color: #F2991D;
+}
+
+#api-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#api-video:hover {
+    color: #F2991D;
+}
+
+
+/* -------------------------------- Web3 page ----------------------------------------------------*/
+/* Nav bar */
+#logow {
+    width: 7rem;
+    height: 6rem;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__item {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+#navbar__logow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#logo__containerw {
+    margin-top: 2rem;
+    display: flex; 
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#coding-pagew, #ai-pagew {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 1rem;
+    width: 3rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #1DA1F2;
+    color: white;
+}
+
+#web3-pagew {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 1rem;
+    width: 3rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #F2991D;
+    color: white;
+}
+
+.navbar__menu {
+    display: flex;
+    float: right;
+}
+
+#coding-pagew:hover {
+    color: #F2991D;
+}
+
+#web3-pagew:hover {
+    color: white;
+}
+
+#ai-pagew:hover {
+    color: #F2991D; 
+}
+
+#link3 {
+    text-decoration: none;
+    color: black;
+}
+
+/* Content */
+.terms {
+    text-align: center;
+}
+
+#web3-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#web3-video:hover {
+    color: #F2991D;
+}
+
+#blockchain-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#blockchain-video:hover {
+    color: #F2991D;
+}
+
+#cryptocurrency-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#cryptocurrency-video:hover {
+    color: #F2991D;
+}
+
+#smart-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#smart-video:hover {
+    color: #F2991D;
+}
+
+#wallet-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#wallet-video:hover {
+    color: #F2991D;
+}
+
+#nft-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#nft-video:hover {
+    color: #F2991D;
+}
+
+#dao-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#dao-video:hover {
+    color: #F2991D;
+}
+
+/*----------------------------------- AI page ----------------------------------------------*/ 
+/* Nav bar */
+#logoa {
+    width: 7rem;
+    height: 6rem;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__item {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+#navbar__logoa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#logo__containera {
+    margin-top: 2rem;
+    display: flex; 
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+#coding-pagea, #web3-pagea {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 1rem;
+    width: 3rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #1DA1F2;
+    color: white;
+}
+
+#ai-pagea {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px; 
+    height: 1rem;
+    width: 3rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+    background: #F2991D;
+    color: white;
+}
+
+.navbar__menu {
+    display: flex;
+    float: right;
+}
+
+#coding-pagea:hover {
+    color: #F2991D;
+}
+
+#web3-pagea:hover {
+    color: #F2991D;
+}
+
+#ai-pagea:hover {
+    color: white; 
+}
+
+#link4 {
+    text-decoration: none;
+    color: black;
+}
+
+/* Content */
+
+#ai-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#ai-video:hover {
+    color: #F2991D;
+}
+
+#machine-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#machine-video:hover {
+    color: #F2991D;
+}
+
+#algorithm-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#algorithm-video:hover {
+    color: #F2991D;
+}
+
+#neural-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#neural-video:hover {
+    color: #F2991D;
+}
+
+#imputation-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#imputation-video:hover {
+    color: #F2991D;
+}
+
+#supervised-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#supervised-video:hover {
+    color: #F2991D;
+}
+
+#unsupervised-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#unsupervised-video:hover {
+    color: #F2991D;
+}
+
+#nlp-video {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+#nlp-video:hover {
+    color: #F2991D;
+}
