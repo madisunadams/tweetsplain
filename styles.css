@@ -320,6 +320,7 @@ h1 {
 
 #coding-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #languages-video {
@@ -329,6 +330,7 @@ h1 {
 
 #languages-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #front-video {
@@ -338,6 +340,7 @@ h1 {
 
 #front-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #back-video {
@@ -347,6 +350,7 @@ h1 {
 
 #back-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #u-video {
@@ -356,6 +360,7 @@ h1 {
 
 #u-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #api-video {
@@ -365,6 +370,7 @@ h1 {
 
 #api-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 
@@ -483,6 +489,7 @@ h1 {
 
 #web3-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #blockchain-video {
@@ -492,6 +499,7 @@ h1 {
 
 #blockchain-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #cryptocurrency-video {
@@ -501,6 +509,7 @@ h1 {
 
 #cryptocurrency-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #smart-video {
@@ -510,6 +519,7 @@ h1 {
 
 #smart-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #wallet-video {
@@ -519,6 +529,7 @@ h1 {
 
 #wallet-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #nft-video {
@@ -528,6 +539,7 @@ h1 {
 
 #nft-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #dao-video {
@@ -537,6 +549,7 @@ h1 {
 
 #dao-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 /*----------------------------------- AI page ----------------------------------------------*/ 
@@ -651,6 +664,7 @@ h1 {
 
 #ai-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #machine-video {
@@ -660,6 +674,7 @@ h1 {
 
 #machine-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #algorithm-video {
@@ -669,6 +684,7 @@ h1 {
 
 #algorithm-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #neural-video {
@@ -678,6 +694,7 @@ h1 {
 
 #neural-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #imputation-video {
@@ -687,6 +704,7 @@ h1 {
 
 #imputation-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #supervised-video {
@@ -696,6 +714,7 @@ h1 {
 
 #supervised-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #unsupervised-video {
@@ -705,6 +724,7 @@ h1 {
 
 #unsupervised-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
 
 #nlp-video {
@@ -714,4 +734,5 @@ h1 {
 
 #nlp-video:hover {
     color: #F2991D;
+    text-decoration: underline;
 }
